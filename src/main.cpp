@@ -9,7 +9,7 @@
 
 // constantes métrologies
 const double u_r = 0.002886751; // incertitude sur l'erreur (constante)
-const double u_j = 0.006708204; // incertitude de justesse (constante)
+const double u_j = 0.006708204; // incertitude de fidélité (constante)
 
 // Déclaration Capteur HX711
 const int LOADCELL_DOUT_PIN = 21; // attribue broche Dout du HX711 au pin 21 (DATA)
