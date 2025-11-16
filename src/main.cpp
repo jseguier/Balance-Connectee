@@ -167,11 +167,11 @@ if (mesure) {
       
 
     // masse étalonnée 
-      erreur = -4E-05; // erreur  // (EXCEL)
+      erreur = -0.00004; // erreur  // (EXCEL)
       masse2 = reading + erreur; // masse lue + erreur
       client.publish(topic_masse2, String(masse2, 3).c_str()); // Publication de la masse sur le topic
 
-      u_et = 0.021602516; // incertitude étalonnage
+      u_et = 0.02160324; // incertitude étalonnage
       u_m2 = sqrt(pow(u_et, 2) + pow(u_r, 2) + pow(u_j, 2));
       incert_2 = 2 * u_m2;
       client.publish(topic_incert_2, String(incert_2, 3).c_str()); // Publication de l'incertitude "étalonnée" sur le topic
@@ -197,7 +197,7 @@ if (mesure) {
       masse2 = reading + erreur; // masse lue + erreur
       client.publish(topic_masse2, String(masse2, 3).c_str()); // Publication de la masse sur le topic
 
-      u_et = 0.021602636; // incertitude étalonnage
+      u_et = 0.021605529; // incertitude étalonnage
       u_m2= sqrt(pow(u_et, 2) + pow(u_r, 2) + pow(u_j, 2));
       incert_2 = 2 * u_m2;
       client.publish(topic_incert_2, String(incert_2, 3).c_str()); // Publication de l'incertitude "étalonnée" sur le topic
@@ -223,7 +223,7 @@ if (mesure) {
       masse2 = reading + erreur; // masse lue + erreur
       client.publish(topic_masse2, String(masse2, 3).c_str()); // Publication de la masse sur le topic
 
-      u_et = 0.021603425; // incertitude étalonnage
+      u_et = 0.0216215; // incertitude étalonnage
       u_m2 = sqrt(pow(u_et, 2) + pow(u_r, 2) + pow(u_j, 2));
       incert_2 = 2 * u_m2;
       client.publish(topic_incert_2, String(incert_2, 3).c_str()); // Publication de l'incertitude "étalonnée" sur le topic
@@ -250,7 +250,7 @@ if (mesure) {
       masse2 = reading + erreur; // masse lue + erreur
       client.publish(topic_masse2, String(masse2, 3).c_str()); // Publication de la masse sur le topic
 
-      u_et = 0.021606227; // incertitude étalonnage
+      u_et = 0.021678425; // incertitude étalonnage
       u_m2 = sqrt(pow(u_et, 2) + pow(u_r, 2) + pow(u_j, 2));
       incert_2 = 2 * u_m2;
       client.publish(topic_incert_2, String(incert_2, 3).c_str()); // Publication de l'incertitude "étalonnée" sur le topic
@@ -276,7 +276,7 @@ if (mesure) {
       masse2 = reading + erreur; // masse lue + erreur
       client.publish(topic_masse2, String(masse2, 3).c_str()); // Publication de la masse sur le topic
 
-      u_et = 0.021617376; // incertitude étalonnage
+      u_et = 0.02190459; // incertitude étalonnage
       u_m2 = sqrt(pow(u_et, 2) + pow(u_r, 2) + pow(u_j, 2));
       incert_2 = 2 * u_m2;
       client.publish(topic_incert_2, String(incert_2, 3).c_str()); // Publication de l'incertitude "étalonnée" sur le topic
@@ -302,7 +302,7 @@ if (mesure) {
       masse2 = reading + erreur; // masse lue + erreur
       client.publish(topic_masse2, String(masse2, 3).c_str()); // Publication de la masse sur le topic
 
-      u_et = 0.021695089; // incertitude étalonnage
+      u_et = 0.023426528; // incertitude étalonnage
       u_m2 = sqrt(pow(u_et, 2) + pow(u_r, 2) + pow(u_j, 2));
       incert_2 = 2 * u_m2;
       client.publish(topic_incert_2, String(incert_2, 3).c_str()); // Publication de l'incertitude "étalonnée" sur le topic
@@ -327,7 +327,7 @@ if (mesure) {
       masse2 = reading + erreur; // masse lue + erreur
       client.publish(topic_masse2, String(masse2, 3).c_str()); // Publication de la masse sur le topic
 
-      u_et = 0.021970443; // incertitude étalonnage
+      u_et = 0.028199319; // incertitude étalonnage
       u_m2 = sqrt(pow(u_et, 2) + pow(u_r, 2) + pow(u_j, 2));
       incert_2 = 2 * u_m2;
       client.publish(topic_incert_2, String(incert_2, 3).c_str()); // Publication de l'incertitude "étalonnée" sur le topic
@@ -352,7 +352,7 @@ if (mesure) {
       masse2 = reading + erreur; // masse lue + erreur
       client.publish(topic_masse2, String(masse2, 3).c_str()); // Publication de la masse sur le topic
 
-      u_et = 0.023039188; // incertitude étalonnage
+      u_et = 0.042199517; // incertitude étalonnage
       u_m2 = sqrt(pow(u_et, 2) + pow(u_r, 2) + pow(u_j, 2));
       incert_2 = 2 * u_m2;
       client.publish(topic_incert_2, String(incert_2, 3).c_str()); // Publication de l'incertitude "étalonnée" sur le topic
