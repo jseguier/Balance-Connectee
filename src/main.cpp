@@ -291,7 +291,7 @@ if (mesure) {
       masse1 = reading;
       client.publish(topic_masse1, String(masse1, 3).c_str()); // Publication de la masse sur le topic
 
-      EMT = 0.2;  // (EXCEL)
+      EMT = 0.1;  // (EXCEL)
       u_e = EMT / sqrt(3);
       u_m1 = sqrt(pow(u_e, 2) + pow(u_r, 2) + pow(u_j, 2));
       incert_1 = 2 * u_m1;
@@ -341,7 +341,7 @@ if (mesure) {
       masse1 = reading;
       client.publish(topic_masse1, String(masse1, 3).c_str()); // Publication de la masse sur le topic
 
-      EMT = 0,3; // (EXCEL)
+      EMT = 0.3; // (EXCEL)
       u_e = EMT / sqrt(3);
       u_m1 = sqrt(pow(u_e, 2) + pow(u_r, 2) + pow(u_j, 2));
       incert_1 = 2 * u_m1;
